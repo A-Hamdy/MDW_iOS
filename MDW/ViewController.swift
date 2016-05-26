@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("test push to Hamdy Branch")
+        print("test 1.2 push to Hamdy Branch ")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

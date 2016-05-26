@@ -10,6 +10,7 @@
 		251B0CB029B78F3480B6FF20 /* Pods_MDW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC541165E8DB982F975CC2BD /* Pods_MDW.framework */; };
 		28274EB18B4F2915FDDEBA7C /* Pods_MDWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A93343D58E24D461AC61050 /* Pods_MDWUITests.framework */; };
 		8C016B301CF726840022F12D /* QRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C016B2F1CF726840022F12D /* QRGenerator.swift */; };
+		8C016B371CF73FDA0022F12D /* HtmlRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C016B361CF73FDA0022F12D /* HtmlRendering.swift */; };
 		8C8EB96E1CF1F493006C9B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8EB96D1CF1F493006C9B33 /* AppDelegate.swift */; };
 		8C8EB9701CF1F493006C9B33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8EB96F1CF1F493006C9B33 /* ViewController.swift */; };
 		8C8EB9731CF1F493006C9B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8EB9711CF1F493006C9B33 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		561CA5A98285EA72DBC7EBAF /* Pods-MDWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDWUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDWUITests/Pods-MDWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A402AF129B6D41A22BF862A /* Pods-MDWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDWUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDWUITests/Pods-MDWUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C016B2F1CF726840022F12D /* QRGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRGenerator.swift; sourceTree = "<group>"; };
+		8C016B361CF73FDA0022F12D /* HtmlRendering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlRendering.swift; sourceTree = "<group>"; };
 		8C8EB96A1CF1F493006C9B33 /* MDW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8EB96D1CF1F493006C9B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C8EB96F1CF1F493006C9B33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,23 @@
 			name = QRGenerator;
 			sourceTree = "<group>";
 		};
+		8C016B351CF73F9C0022F12D /* HtmlRendering */ = {
+			isa = PBXGroup;
+			children = (
+				8C016B361CF73FDA0022F12D /* HtmlRendering.swift */,
+			);
+			name = HtmlRendering;
+			sourceTree = "<group>";
+		};
+		8C016B381CF7400A0022F12D /* Hamdy */ = {
+			isa = PBXGroup;
+			children = (
+				8C016B351CF73F9C0022F12D /* HtmlRendering */,
+				8C016B2E1CF7263D0022F12D /* QRGenerator */,
+			);
+			name = Hamdy;
+			sourceTree = "<group>";
+		};
 		8C8EB9611CF1F493006C9B33 = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +168,7 @@
 		8C8EB96C1CF1F493006C9B33 /* MDW */ = {
 			isa = PBXGroup;
 			children = (
-				8C016B2E1CF7263D0022F12D /* QRGenerator */,
+				8C016B381CF7400A0022F12D /* Hamdy */,
 				8C8EB96D1CF1F493006C9B33 /* AppDelegate.swift */,
 				8C8EB96F1CF1F493006C9B33 /* ViewController.swift */,
 				8C8EB9711CF1F493006C9B33 /* Main.storyboard */,
@@ -442,6 +461,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C8EB9701CF1F493006C9B33 /* ViewController.swift in Sources */,
+				8C016B371CF73FDA0022F12D /* HtmlRendering.swift in Sources */,
 				8C8EB9761CF1F493006C9B33 /* MDW.xcdatamodeld in Sources */,
 				8C016B301CF726840022F12D /* QRGenerator.swift in Sources */,
 				8C8EB96E1CF1F493006C9B33 /* AppDelegate.swift in Sources */,
